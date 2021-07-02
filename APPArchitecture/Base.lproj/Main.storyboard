@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="SNq-wI-nQu">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ns0-cy-umk">
+                                        <rect key="frame" x="0.0" y="0.0" width="103.5" height="44"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="MVC">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" title="MVC">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onPageChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xQb-qV-XWr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7A-Ot-ndc">
+                                        <rect key="frame" x="103.5" y="0.0" width="103.5" height="44"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="MVP">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" title="MVP">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onPageChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yhs-aY-TU4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsz-SM-dor">
+                                        <rect key="frame" x="207" y="0.0" width="103.5" height="44"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="MVVM">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <state key="selected" title="MVVM">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onPageChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GoJ-Xh-jNJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXE-73-Fu8">
+                                        <rect key="frame" x="310.5" y="0.0" width="103.5" height="44"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Router">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <state key="selected" title="Router">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onPageChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l5Y-n3-iXW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Ns0-cy-umk" secondAttribute="bottom" id="2Ct-mN-MgG"/>
+                                    <constraint firstItem="R7A-Ot-ndc" firstAttribute="top" secondItem="Ns0-cy-umk" secondAttribute="top" id="9xc-Aj-gdI"/>
+                                    <constraint firstItem="R7A-Ot-ndc" firstAttribute="bottom" secondItem="Ns0-cy-umk" secondAttribute="bottom" id="AZT-AV-qtT"/>
+                                    <constraint firstItem="R7A-Ot-ndc" firstAttribute="leading" secondItem="Ns0-cy-umk" secondAttribute="trailing" id="Ij4-YN-ESs"/>
+                                    <constraint firstItem="Ns0-cy-umk" firstAttribute="top" secondItem="SNq-wI-nQu" secondAttribute="top" id="OyY-yS-3If"/>
+                                    <constraint firstItem="qsz-SM-dor" firstAttribute="bottom" secondItem="Ns0-cy-umk" secondAttribute="bottom" id="Qd0-2F-abL"/>
+                                    <constraint firstItem="qsz-SM-dor" firstAttribute="width" secondItem="Ns0-cy-umk" secondAttribute="width" id="RH5-Rj-K7C"/>
+                                    <constraint firstItem="Ns0-cy-umk" firstAttribute="leading" secondItem="SNq-wI-nQu" secondAttribute="leading" id="V4u-w3-Zv0"/>
+                                    <constraint firstItem="vXE-73-Fu8" firstAttribute="width" secondItem="Ns0-cy-umk" secondAttribute="width" id="WET-gc-uUu"/>
+                                    <constraint firstItem="vXE-73-Fu8" firstAttribute="leading" secondItem="qsz-SM-dor" secondAttribute="trailing" id="aId-vq-hXZ"/>
+                                    <constraint firstItem="R7A-Ot-ndc" firstAttribute="width" secondItem="Ns0-cy-umk" secondAttribute="width" id="bp4-PN-Fhb"/>
+                                    <constraint firstItem="qsz-SM-dor" firstAttribute="top" secondItem="Ns0-cy-umk" secondAttribute="top" id="cSR-lB-VNf"/>
+                                    <constraint firstItem="vXE-73-Fu8" firstAttribute="top" secondItem="Ns0-cy-umk" secondAttribute="top" id="ePs-yh-UsN"/>
+                                    <constraint firstItem="qsz-SM-dor" firstAttribute="leading" secondItem="R7A-Ot-ndc" secondAttribute="trailing" id="gpw-Rv-jEv"/>
+                                    <constraint firstAttribute="height" constant="44" id="lgy-kE-5bP"/>
+                                    <constraint firstAttribute="trailing" secondItem="vXE-73-Fu8" secondAttribute="trailing" id="sIU-ju-n9I"/>
+                                    <constraint firstItem="vXE-73-Fu8" firstAttribute="bottom" secondItem="Ns0-cy-umk" secondAttribute="bottom" id="wrn-hM-sGT"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="QaU-X1-BzS">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XKv-xJ-3RN">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                        <viewLayoutGuide key="contentLayoutGuide" id="4sB-BU-TDg"/>
+                                        <viewLayoutGuide key="frameLayoutGuide" id="Por-8w-bZA"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="PoV-yM-OYt"/>
+                                        </connections>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="XKv-xJ-3RN" secondAttribute="trailing" id="2wB-FV-AOe"/>
+                                    <constraint firstAttribute="bottom" secondItem="XKv-xJ-3RN" secondAttribute="bottom" id="Ons-qg-OZm"/>
+                                    <constraint firstItem="XKv-xJ-3RN" firstAttribute="leading" secondItem="QaU-X1-BzS" secondAttribute="leading" id="kDZ-Fv-hiJ"/>
+                                    <constraint firstItem="XKv-xJ-3RN" firstAttribute="top" secondItem="QaU-X1-BzS" secondAttribute="top" id="sCe-ao-4qS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QaU-X1-BzS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6Gc-RB-Xe0"/>
+                            <constraint firstItem="QaU-X1-BzS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="AhA-Tb-YYE"/>
+                            <constraint firstItem="SNq-wI-nQu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CEU-tm-2nC"/>
+                            <constraint firstAttribute="bottom" secondItem="QaU-X1-BzS" secondAttribute="bottom" id="OEo-Ii-CKt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SNq-wI-nQu" secondAttribute="trailing" id="PCs-bZ-GUZ"/>
+                            <constraint firstItem="SNq-wI-nQu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="owk-K5-vBJ"/>
+                            <constraint firstItem="QaU-X1-BzS" firstAttribute="top" secondItem="SNq-wI-nQu" secondAttribute="bottom" id="q5Y-ro-RgO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="itemsView" destination="SNq-wI-nQu" id="BHc-HU-aBH"/>
+                        <outlet property="scrollView" destination="XKv-xJ-3RN" id="tSV-RE-99o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="351" y="-11"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
